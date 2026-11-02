@@ -1,0 +1,184 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: #fff0f5;
+    color: #98516f;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #f5c6d9;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    color: #a64d75;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #9b5875;
+    font-size: 16px;
+}
+
+/* MENU */
+
+nav {
+    background-color: #fce0eb;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #a64d75;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d66d9c;
+}
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    text-align: center;
+    padding: 55px 20px;
+    margin: 25px auto;
+    max-width: 850px;
+}
+
+.apresentacao h2,
+#testes h2,
+.sobre h2 {
+    color: #c15f8a;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.apresentacao p {
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* BOTÕES */
+
+.botao {
+    display: inline-block;
+    background-color: #e9a8c2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #ce7fa1;
+    transform: scale(1.05);
+}
+
+/* ÁREA DOS TESTES */
+
+#testes {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.container-testes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 30px;
+}
+
+/* CARTÕES */
+
+.card {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 25px 18px;
+    border-radius: 20px;
+    border: 2px solid #f4c5d8;
+    box-shadow: 0 4px 12px #e9b4ca;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card span {
+    font-size: 35px;
+}
+
+.card h3 {
+    color: #bc6489;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* SOBRE */
+
+.sobre {
+    background-color: #f9dce8;
+    text-align: center;
+    padding: 45px 25px;
+    margin-top: 40px;
+}
+
+.sobre p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #e9b4ca;
+    text-align: center;
+    padding: 22px;
+    color: #884562;
+    line-height: 1.8;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+}
+
+
